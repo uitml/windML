@@ -9,7 +9,7 @@ Sources of data:
 * [https://surfobs.climate.copernicus.eu/](https://surfobs.climate.copernicus.eu/)
 
 
-![Image not found](./WP1/visualisations/figs/windspeed_pt10m_qc.png)
+![Image not found](./figures/windspeed_pt10m_qc.png)
 *Figure displays number of stations from seklima that measures the wind at a 10 minute interval. The color is according to the stations quality code. from worst to best (red - green).*
 
 
