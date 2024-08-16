@@ -1,30 +1,11 @@
-# Machine learning for wind prediction and modelling
+# Machine Learning for wind prediction and modelling
 
-This repository contains code for wind data collection, processing and analysis.
+This repository contains the code of our project for predicting and modelling wind using machine learning. 
 
-Sources of data:
+In the folder `2023` is the work done in 2023 for extracting data from seklima (measurement stations) and CARRA (re-analysis data) datasets.
 
-* [https://seklima.met.no/](https://seklima.met.no/) , 
-	* API: [https://frost.met.no/](https://frost.met.no/)
-* [https://surfobs.climate.copernicus.eu/](https://surfobs.climate.copernicus.eu/)
+In the folder `2024` is the work done on 
+1) collecting CARRA data and SAR images around the Goliath offshore station,
+2) training Graph Neural Networks to model the wind speed using these data.
 
-
-![Image not found](./figures/windspeed_pt10m_qc.png)
-*Figure displays number of stations from seklima that measures the wind at a 10 minute interval. The color is according to the stations quality code. from worst to best (red - green).*
-
-
-
-## Description of the work packages
-
-**WP1**: Analysis of a sensor network recording weather data over Norway. 
-
-The goal of the WP1 is to analyze weather data collected all over Norway by a network of sensors. We seek to understand the behavior of weather variables, in particular the wind and their correlation in different place of Norway. Network science and machine learning methods will be used to find interesting places for the implantation of future windmills.
-
-
-
-**WP2**: Offshore wind data from measurements and meteorological models
-
-The goal of the WP2 is to identify and collect weather data related to offshore wind along the Norwegian coast. The student will download and categorize the available data, prepare python scripts for initial statistical analysis of the data, as well as scripts for presentation of meteorological data and results of analysis.  Title: Offshore wind data from measurements and meteorological models
-Description: The goal of the project is to identify and collect weather data related to offshore wind along the Norwegian coast. The student will download and categorize the available data, prepare python scripts for initial statistical analysis of the data, as well as scripts for presentation of meteorological data and results of analysis. 
-
-
+More information is available in the README file within each folder.
